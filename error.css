@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'MedievalSharp', cursive;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #212929;
+}
+
+.content {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 250px;
+    margin-right: 200px;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text-content h1 {
+    width: 584px;
+    height: 212px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 72px;
+    text-align: center;
+    color: #c6c6ce;
+    margin-bottom: 85px;
+}
+
+.text-content p {
+    width: 639px;
+    height: 41px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 41px;
+    text-align: center;
+    color: #C6C6CE;
+}
+
+.img-content a {
+    margin: 0;
+    padding: 0;
+}
+
+.img-content a img {
+    width: 676px;
+    height: 620px;
+}
+
+@media (max-width: 991px) {
+    .content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .text-content h1 {
+        width: 384px;
+        height: 112px;
+        font-size: 36px;
+        margin-bottom: 120px;
+    }
+
+    .text-content p {
+        font-size: 24px;
+    }
+
+    .img-content a img {
+        width: 376px;
+        height: 320px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .content {
+        margin-left: 50px;
+        margin-right: 0px;
+    }
+
+    .text-content h1 {
+        width: 484px;
+        height: 112px;
+        font-size: 36px;
+    }
+
+    .img-content a img {
+        width: 476px;
+        height: 420px;
+    }
+}
