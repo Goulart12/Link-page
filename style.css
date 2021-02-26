@@ -320,7 +320,7 @@ body {
     }
 }
 
-@media (max-width: 760px) {
+/*@media (max-width: 760px) {
     .content-wrapper {
         width: 330px;
         height: 740px;
@@ -330,7 +330,7 @@ body {
     .color-light {
         width: 186px;
     }
-}
+}*/
 
 @media (max-width: 1400px) {
     .content-wrapper {
