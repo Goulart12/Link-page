@@ -94,7 +94,6 @@ section {
         flex-direction: column;
         margin-left: 0;
         margin-right: 0;
-        overflow: hidden;
     }
 
     .text-content h1 {
@@ -109,6 +108,10 @@ section {
         font-size: 24px;
         margin-top: 100px;
         margin-bottom: 100px;
+    }
+
+    .img-content {
+        overflow: hidden;
     }
 
     .img-content a img {

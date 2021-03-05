@@ -6,6 +6,10 @@ lightMode.addEventListener('click', () => {
 
 const mobileBtn = document.querySelector('#mobileButton');
 
+mobileBtn.addEventListener('touchstart', () => {
+    document.documentElement.classList.toggle('dark-mode')
+})
+
 mobileBtn.addEventListener('touchmove', () => {
     document.documentElement.classList.toggle('dark-mode')
 })
