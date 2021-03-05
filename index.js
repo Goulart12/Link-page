@@ -19,3 +19,9 @@ mobileBtn.addEventListener('touchstart', () => {
 function alterarImagem() {
     document.getElementById('img').src = "./assets/darkness-dark.png";
 }
+
+mobileBtn.addEventListener('touchstart', alterarImagem1())
+
+function alterarImagem1() {
+    document.getElementById('img').src = "./assets/darkness-dark.png";
+}
