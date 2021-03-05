@@ -110,9 +110,13 @@ section {
         margin-bottom: 100px;
     }
 
+    .img-content {
+        width: 400;
+        overflow: hidden;
+    }
+
     .img-content a img {
         width: 376px;
         height: 320px;
-        overflow: hidden;
     }
 }
