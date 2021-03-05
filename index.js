@@ -4,13 +4,19 @@ lightMode.addEventListener('click', () => {
     document.documentElement.classList.toggle('dark-mode')
 })
 
-lightMode.addEventListener('touchstart', () => {
+lightMode.addEventListener('touchstart', alterarMobile())
+
+function alterarMobile () {
     document.documentElement.classList.toggle('dark-mode')
-})
+}
+    
+function alterarImagem() {
+    document.getElementById('img').src = "./assets/darkness-dark.png";
+}
+
+
 /*lightMode.addEventListener('click', () => {
     document.getElementById('img').src = "./assets/darkness-dark.png";
 })*/
 
-function alterarImagem() {
-    document.getElementById('img').src = "./assets/darkness-dark.png";
-}
+
