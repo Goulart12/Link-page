@@ -9,7 +9,7 @@ lightMode.addEventListener('click', () => {
 })*/
 
 document.addEventListener("touchstart", alterarMobile)
-document.addEventListener("touchmove", alterarMobile)
+
 
 function alterarMobile() {
     document.documentElement.classList.toggle('dark-mode')

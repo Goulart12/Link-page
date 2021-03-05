@@ -113,5 +113,6 @@ section {
     .img-content a img {
         width: 376px;
         height: 320px;
+        overflow: hidden;
     }
 }
