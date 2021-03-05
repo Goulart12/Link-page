@@ -50,6 +50,10 @@ body {
     margin-bottom: 10px;
 }
 
+.change-button #mobileButton {
+    display: none;
+}
+
 .change-button button {
     width: 50px;
     height: 50px;
@@ -106,6 +110,7 @@ body {
     flex-direction: column;
     justify-content: center;
 }
+
 
 .color-dark {
     display: flex;
@@ -320,20 +325,10 @@ body {
     }
 }
 
-/*@media (max-width: 760px) {
-    .content-wrapper {
-        width: 330px;
-        height: 740px;
-    }
 
-    .color-dark,
-    .color-light {
-        width: 186px;
-    }
-}*/
 
 @media (max-width: 1400px) {
-    .content-wrapper {
+        .content-wrapper {
         width: 330px;
         height: 540px;
     }
@@ -353,4 +348,14 @@ body {
         height: 40px;
     }
 
+}
+
+@media (max-width: 760px) {
+    .change-button #light-mode {
+        display: none;
+    }
+
+    .change-button #mobileButton {
+        display: flex;
+    }
 }

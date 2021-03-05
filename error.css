@@ -94,6 +94,7 @@ section {
         flex-direction: column;
         margin-left: 0;
         margin-right: 0;
+        overflow: hidden;
     }
 
     .text-content h1 {
@@ -113,6 +114,5 @@ section {
     .img-content a img {
         width: 376px;
         height: 320px;
-        overflow: hidden;
     }
 }
