@@ -7,7 +7,8 @@ lightMode.addEventListener('click', () => {
 const mobileBtn = document.querySelector('#mobileButton');
 
 mobileBtn.addEventListener('touchstart', () => {
-    document.documentElement.classList.toggle('dark-mode')
+    document.documentElement.classList.toggle('dark-mode');
+    document.getElementById('img').src = "./assets/darkness-dark.png";
 })
 
     
@@ -20,8 +21,5 @@ function alterarImagem() {
     document.getElementById('img').src = "./assets/darkness-dark.png";
 }
 
-mobileBtn.addEventListener('touchstart', alterarImagem1())
 
-function alterarImagem1() {
-    document.getElementById('img').src = "./assets/darkness-dark.png";
-}
+
