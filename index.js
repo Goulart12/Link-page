@@ -21,5 +21,5 @@ function alterarImagem() {
     document.getElementById('img').src = "./assets/darkness-dark.png";
 }
 
-
+ 
 
